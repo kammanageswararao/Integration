@@ -2,4 +2,4 @@ java -version
 mvn -version
 echo "Display";
 
-echo "kamma"
+echo "kamma";
