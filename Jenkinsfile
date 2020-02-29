@@ -3,10 +3,11 @@ pipeline {
 	    stages {
         stage('Build') {
             steps {
+		    step{
                 echo 'Hello World'
 		  
 	         echo "Git Commiter name is ->"  %GIT_COMMITTER_NAME%
-			  
+			 } 
 	         
 			      
             }
