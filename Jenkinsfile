@@ -4,6 +4,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello World'
+		   echo "Git Commit is ->" %GIT_COMMIT%
+	         echo "Git Commiter name is ->" %GIT_COMMITER_NAME%
+	         echo "Git AUTHOR name is ->" %GIT_AUTHOR_NAME%
+			    
             }
         }
 		
